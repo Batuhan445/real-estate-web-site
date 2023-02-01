@@ -564,3 +564,8 @@ video {
 .outline {
   outline-style: solid;
 }
+
+.body {
+  margin: 0;
+  padding: 0;
+}
