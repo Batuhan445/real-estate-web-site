@@ -6,3 +6,9 @@
     margin: 0;
     padding: 0;
 }
+
+.explore {
+    background-image: url(../public/image/villa4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
