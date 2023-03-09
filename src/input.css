@@ -9,6 +9,6 @@
 
 .explore {
     background-image: url(../public/image/villa4.jpg);
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
 }
