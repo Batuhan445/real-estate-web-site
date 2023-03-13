@@ -206,13 +206,90 @@
 
     <h1 class="text-2xl flex justify-center mt-8">Contact Us</h1>
 
-    <div>
+    <div class=" mt-4 form-background">
 
         <form action="GET">
+
+            <div>
+                <label for="">First Name</label>
+                <input type="text" placeholder="John">
+            </div>
+
+            <div>
+                <label for="">Surname</label>
+                <input type="text" placeholder="Giacometti">
+            </div>
+
+            <div>
+                <label for="">E-mail</label>
+                <input type="email" placeholder="example@hotmail.com">
+            </div>
+
+            <div>
+                <label for="">Message</label>
+                <textarea class="resize-none" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <button class="bg-green-500 text-white px-4 py-2 rounded-xl">Send</button>
+            </div>
 
         </form>
 
     </div>
+
+    <div class="flex items-center justify-center m-auto w-3/5 mt-14">
+        <img class="w-12 h-12" src="./icons/home-gray.png" alt="home-gray">
+        <span class="text-current ml-6 text-gray-400">Prime Properties</span>
+    </div>
+
+    <div class="grid items-center grid-cols-2 gap-8 sm:grid-cols-4 mt-14">
+
+        <div>
+            <h3>PRODUCT</h3>
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Integrations</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>COMPANY</h3>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>DEVELOPERS</h3>
+            <ul>
+                <li><a href="#">Public API</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Guides</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>SOCIAL MEDIA</h3>
+            <ul class="flex justify-start">
+
+                <li><a href="https://www.linkedin.com/in/batuhankaraahmeto%C4%9Flu/" target="_blank">
+                    <img class="w-7 h-7" src="./icons/linkedin.png" alt=""></a>
+                </li>
+
+                <li class="ml-2"><a href="https://github.com/Batuhan445" target="_blank">
+                    <img class="w-7 h-7" src="./icons/github.png" alt=""></a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <p class="mt-8 mb-8 flex justify-center text-center text-green-600">© 2022 Company Co. All rights reserved</p>
 
 
 </body>
