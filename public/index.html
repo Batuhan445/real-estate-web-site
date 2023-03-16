@@ -40,15 +40,15 @@
                 our priority and budget is our constrain. Pick and choose from 1000+ properties across the globe</p>
         </div>
 
-        <div class="flex justify-evenly mt-14 w-1/4 mx-auto">
-            <a class="bg-green-500 p-3 rounded-xl text-white" href="#">View Properties</a>
-            <a class="bg-green-300 p-3 rounded-xl" href="#">Explore Locations</a>
+        <div class="grid gap-6 md:flex justify-evenly mt-14 md:w-2/5 mx-auto">
+            <a class="bg-green-500 px-10 py-3 rounded-xl text-white text-center" href="#">View Properties</a>
+            <a class="bg-green-300 px-10 py-3 rounded-xl text-center" href="#">Explore Locations</a>
         </div>
     </div>
 
     <h2 class="flex justify-center mt-16 text-2xl">Recent Properties</h2>
 
-    <div class="mt-10 grid grid-cols-3 gap-7 mx-auto p-10 object-cover overflow-hidden">
+    <div class="mt-10 grid md:grid-cols-3 gap-7 mx-auto p-10 object-cover overflow-hidden">
 
         <div class="flex flex-col justify-center shadow-2xl rounded-xl pb-6">
 
@@ -128,7 +128,7 @@
     <div id="explore-locations">
         <h1 class="pt-8 flex justify-center text-2xl">Explore Locations</h1>
 
-        <div class="grid grid-cols-3 gap-7 px-9 mt-8 mb-5">
+        <div class="grid md:grid-cols-3 gap-7 px-9 mt-8 mb-5">
 
             <div class="rounded-lg shadow-2xl pb-6">
                 <img class="rounded-t-2xl" src="./image/new-york.jpg" alt="new-york">
@@ -177,26 +177,38 @@
             <h1 class="flex justify-center mt-8 text-2xl">What Clients Say About Us ?</h1>
         </div>
 
-        <div class="grid grid-cols-3 gap-3 px-9 mt-8 mb-8">
+        <div class="grid md:grid-cols-3 gap-3 px-9 mt-8 mb-8">
 
-            <div class="rounded-xl shadow-2xl p-3">
+            <div class="rounded-xl shadow-2xl px-5 pt-3 pb-5">
                 "This is one of the best property websites I have ever used. Kudos toPrime Properties and the team"
-                <div class="mt-2 ml-3">
-                    <img class="w-10 mx-auto" src="./image/feedback-man.png" alt="feedback-man">
+                <div class="flex items-center bg-green-500 rounded-full">
+                    <img class="w-10" src="./image/feedback-man.png" alt="feedback-man">
+                    <div class="flex flex-col ml-2">
+                        <h1 class="text-[15px]">Batuhan</h1>
+                        <p class="text-[10px]">IT Developer</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="rounded-xl shadow-2xl p-3">
+            <div class="rounded-xl shadow-2xl px-5 pt-3 pb-5">
                 "This Real Estate Site is the best in this country"
-                <div class="mt-2 ml-3">
-                    <img class="w-10 mx-auto" src="./image/feedback-man.png" alt="feedback-man">
+                <div class="mt-6 flex flex-row bg-green-500 rounded-full">
+                    <img class="w-10" src="./image/feedback-man.png" alt="feedback-man">
+                    <div class="flex flex-col ml-2">
+                        <h1 class="text-[15px]">Batuhan</h1>
+                        <p class="text-[10px]">IT Developer</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="rounded-xl shadow-2xl p-3">
+            <div class="rounded-xl shadow-2xl px-5 pt-3 pb-5">
                 "I always find every kind of options here. It makes my job easier"
-                <div class="mt-2 ml-3">
-                    <img class="w-10 mx-auto" src="./image/feedback-man.png" alt="feedback-man">
+                <div class="flex flex-row bg-green-500 rounded-full">
+                    <img class="w-10" src="./image/feedback-man.png" alt="feedback-man">
+                    <div class="flex flex-col ml-2">
+                        <h1 class="text-[15px]">Batuhan</h1>
+                        <p class="text-[10px]">IT Developer</p>
+                    </div>
                 </div>
             </div>
 
@@ -293,7 +305,7 @@
 
     </div>
 
-    <p class="mt-8 mb-8 flex justify-center text-center font-semibold text-green-600">© 2023 Company Co. All rights reserved</p>
+    <p class="mt-16 mb-8 flex justify-center text-center font-semibold text-green-600">© 2023 Company Co. All rights reserved</p>
 
 
 </body>
