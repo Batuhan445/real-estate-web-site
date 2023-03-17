@@ -12,21 +12,32 @@
 
 <body class="body">
 
-    <nav class="shadow-xl flex h-14">
-        <div class="flex items-center ml-5">
-            <a class="flex items-center" href="./index.html">
+    <nav class="shadow-xl flex h-16">
+
+        <div class="flex items-center ml-3">
+            <a class="flex items-center w-[11rem]" href="./index.html">
                 <img class="w-10" src="./icons/home.png" alt="home">
                 <h1 class="ml-2">Prime Properties</h1>
             </a>
         </div>
-        <div class="grid items-center w-80 ml-10">
+
+        <div class="grid items-center w-full ml-4">
             <ul class="flex items-center justify-between">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#contact-us">Contact</a></li>
+
+                <div class="flex justify-between ml-4 lg:w-[25%] md:w-[40%]">
+                    <li class="hidden md:block"><a href="./index.html">Home</a></li>
+                    <li class="hidden md:block"><a href="#">Service</a></li>
+                    <li class="hidden md:block"><a href="#">About</a></li>
+                    <li class="hidden md:block"><a href="#contact-us">Contact</a></li>
+                </div>
+
+                <div>
+                    <img class="w-10 h-10 md:hidden mr-2" src="./icons/menu.svg" alt="">
+                </div>
+
             </ul>
         </div>
+
     </nav>
 
     <div class="mt-16">
@@ -117,8 +128,8 @@
 
     </div>
 
-    <div class="explore h-screen">
-        <div class="text-white mx-auto ml-10 pt-64">
+    <div class="py-20 explore h-screen">
+        <div class="text-white mx-auto ml-4 px-6 mt-40">
             <h1 class="font-bold text-4xl">Experience Luxury Like Never Before</h1>
             <h2 class="font-semibold mt-2 mb-7">50+ Exotic locations accross the globe</h2>
             <a href="#explore-locations" class="border-2 mx-auto px-8 py-3">EXPLORE LOCATIONS</a>
@@ -305,7 +316,8 @@
 
     </div>
 
-    <p class="mt-16 mb-8 flex justify-center text-center font-semibold text-green-600">© 2023 Company Co. All rights reserved</p>
+    <p class="mt-16 mb-8 flex justify-center text-center font-semibold text-green-600">© 2023 Company Co. All rights
+        reserved</p>
 
 
 </body>
