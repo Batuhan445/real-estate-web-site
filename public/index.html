@@ -25,10 +25,14 @@
             <ul class="flex items-center justify-between">
 
                 <div class="flex justify-between ml-4 lg:w-[25%] md:w-[40%]">
-                    <li class="hidden md:block"><a href="./index.html">Home</a></li>
-                    <li class="hidden md:block"><a href="#">Service</a></li>
-                    <li class="hidden md:block"><a href="#">About</a></li>
-                    <li class="hidden md:block"><a href="#contact-us">Contact</a></li>
+                    <button class="hidden md:block hover:text-green-500 hover:animate hover:duration-500"><a
+                            href="./index.html">Home</a></button>
+                    <button class="hidden md:block hover:text-green-500 hover:animate hover:duration-500"><a
+                            href="#">Service</a></button>
+                    <button class="hidden md:block hover:text-green-500 hover:animate hover:duration-500"><a
+                            href="#">About</a></button>
+                    <button class="hidden md:block hover:text-green-500 hover:animate hover:duration-500"><a
+                            href="#contact-us">Contact</a></button>
                 </div>
 
                 <div>
@@ -51,7 +55,7 @@
                 our priority and budget is our constrain. Pick and choose from 1000+ properties across the globe</p>
         </div>
 
-        <div class="grid gap-6 md:flex justify-evenly mt-14 md:w-2/5 mx-auto">
+        <div class="grid gap-6 md:flex justify-center mt-14 md:w-2/5 mx-auto">
             <a class="bg-green-500 px-10 py-3 rounded-xl text-white text-center" href="#">View Properties</a>
             <a class="bg-green-300 px-10 py-3 rounded-xl text-center" href="#">Explore Locations</a>
         </div>
@@ -128,9 +132,9 @@
 
     </div>
 
-    <div class="py-20 explore h-screen">
-        <div class="text-white mx-auto ml-4 px-6 mt-40">
-            <h1 class="font-bold text-4xl">Experience Luxury Like Never Before</h1>
+    <div class="explore py-72 ">
+        <div class="text-white flex flex-col items-center ">
+            <h1 class="font-bold text-4xl text-center">Experience Luxury Like Never Before</h1>
             <h2 class="font-semibold mt-2 mb-7">50+ Exotic locations accross the globe</h2>
             <a href="#explore-locations" class="border-2 mx-auto px-8 py-3">EXPLORE LOCATIONS</a>
         </div>
@@ -174,10 +178,10 @@
 
     <div class="bg-green-600 text-white p-20 mt-16">
 
-        <div class="">
-            <p class="text-4xl">Save up to 50% on broker commisions</p>
-            <p class="text-xl mt-2">Lowest brokerage fees</p>
-            <button class="border-2 px-8 py-2 rounded-full mt-2 text-black bg-white">ENQUIRE</button>
+        <div class="flex flex-col items-center md:items-start">
+            <p class="text-4xl text-center">Save up to 50% on broker commisions</p>
+            <p class="text-xl mt-5 md:mt-2">Lowest brokerage fees</p>
+            <button class="border-2 px-8 py-2 rounded-full mt-8 md:mt-2 text-black bg-white">ENQUIRE</button>
         </div>
 
     </div>
@@ -231,33 +235,33 @@
 
     <div class="mt-5 pt-4 pb-4 form-background">
 
-        <form class="flex flex-col items-center justify-start max-w-full m-auto" action="GET">
+        <form class="flex flex-col items-center justify-start w-full" action="GET">
 
-            <div class="w-[45%] flex-col justify-between md:flex md:flex-row">
+            <div class="w-[55%] md:w-[45%] flex-col justify-between md:flex md:flex-row">
 
-                <div class="md:w-[45%]">
+                <div class="w-full md:w-[45%]">
                     <label class="block mb-2" for="">First Name</label>
-                    <input class="w-full py-3 px-5" type="text" placeholder="John">
+                    <input class="w-full py-3 px-5 rounded-lg" type="text" placeholder="John">
                 </div>
 
-                <div class="md:w-[45%]">
-                    <label class="block mb-2" for="">Surname</label>
-                    <input class="w-full py-3 px-5" type="text" placeholder="Giacometti">
+                <div class="w-full md:w-[45%]">
+                    <label class="block mb-2 mt-2 md:mt-0" for="">Surname</label>
+                    <input class="w-full py-3 px-5 rounded-lg" type="text" placeholder="Giacometti">
                 </div>
 
             </div>
 
-            <div class="mt-4 md:w-[45%]">
+            <div class="mt-4 w-[55%] md:w-[45%]">
                 <label class="block mb-2" for="">E-mail</label>
-                <input class="w-full py-3 px-4" type="email" placeholder="example@hotmail.com">
+                <input class="w-full py-3 px-4 rounded-lg" type="email" placeholder="example@hotmail.com">
             </div>
 
-            <div class="mt-4 md:w-[45%]">
+            <div class="mt-4 w-[55%] md:w-[45%]">
                 <label for="">Message</label>
-                <textarea class="w-full mt-2 py-3 px-4 h-48 resize-none" name="" id=""></textarea>
+                <textarea class="w-full mt-2 py-3 px-4 h-48 resize-none rounded-lg" name="" id=""></textarea>
             </div>
 
-            <div class="mt-4 ">
+            <div class="mt-4">
                 <button class="bg-green-500 text-white px-4 py-2 rounded-xl">Send</button>
             </div>
 
