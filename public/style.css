@@ -583,3 +583,7 @@ html {
 .form-background {
   background-color: #86efac;
 }
+
+.background-linear {
+  background-image: linear-gradient(to bottom right, rgba(14,109,105), rgba(24,191,171));
+}
